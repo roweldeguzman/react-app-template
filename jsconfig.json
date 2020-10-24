@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+    "module": "commonjs",
+		"baseUrl": "./src",
+		"paths": {
+			"@core/*": ["./src/core"],
+			"@hooks/*": ["./src/hooks"],
+			"@httpRequests/*": ["./src/httpRequests"],
+			"@resources/*": ["./src/resources"]
+		}
+	},
+	"include": ["./src"],
+	"exclude": ["node_modules"]
+}
